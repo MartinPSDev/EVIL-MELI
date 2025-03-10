@@ -1,3 +1,3 @@
 # EVIL-MELI
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/MartinPSDev/EVIL-MELI)
+Test site to test the Mercado Libre / Mercado Pago API (Not a real site for marketing)
