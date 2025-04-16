@@ -7,9 +7,15 @@ export default defineConfig({
   base: '/',
   build: {
     outDir: 'dist',
-    sourcemap: true
+    sourcemap: true,
+    rollupOptions: {
+      output: {
+        manualChunks: undefined
+      }
+    }
   },
-  optimizeDeps: {
-    exclude: ['lucide-react'],
-  },
+  server: {
+    port: 5173,
+    host: true
+  }
 });
